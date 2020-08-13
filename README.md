@@ -1,1 +1,1 @@
-# eHealthAcademyChallenges
+# eHealthAcademyAssignments
