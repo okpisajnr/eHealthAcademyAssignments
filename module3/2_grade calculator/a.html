@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<script type="text/javascript">
+		var UserScore = prompt("What is your Current Score");
+		if ((UserScore >= 70) && (UserScore <= 100)) {
+  			alert("Your Grade is A");
+  			document.write("<h1> Your Grade is A </h1>");
+		} else if ((UserScore >= 50) && (UserScore <= 60)) {
+			alert("Your Grade is C");
+  			document.write("<h1>Your Grade is C</h1>");
+		}  else if ((UserScore >= 0) && (UserScore <= 40)) {
+			alert("Your Grade is F");
+  			document.write("<h1>Your Grade is F</h1>");
+  		}
+		else {
+			alert(" Grade Not Available");
+  			document.write("<h1>Your Score is Invalid .. Please submit score within the range of 0 - 100</h1>");
+		}
+
+	</script>
+
+</body>
+</html>
