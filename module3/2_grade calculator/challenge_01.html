@@ -31,6 +31,8 @@
 		} else if ((UserScore >= 0) && (UserScore <= 40)) {
 			alert("Your Grade is F");
   			document.write("<h1>Your Grade is F</h1>");
+		} else if (UserScore == "") {
+			alert("Input can't be empty");
   		} else {
 			alert(" Grade Not Available");
   			document.write("<h1>Your Score is Invalid .. <br>Please submit score within the range of 0 - 100</h1>");
