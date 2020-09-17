@@ -7,6 +7,8 @@
  <body>
  
     <h1>Mad Libs</h1>
+
+
      
     <ul>
       <li>Noun: <input type="text" id="noun"></li>
@@ -27,10 +29,12 @@
             var noun = document.getElementById("noun").value;
             var adjective = document.getElementById("adjective").value;
             var person = document.getElementById("person").value;
-            storyDiv.innerHTML = noun + "s are very tasty, but you are unfortunately all out. Thankfully, you know a " + adjective + " store nearby that sells them and is owned by your friend " + person;
-        };
+            storyDiv.innerHTML = "A vacation is when you take a trip to a " + person + "'s place with your " + adjective + " family Usually you go to some place that is near a/an " + noun + " or up on a/an " + noun;
+                };
         libButton.addEventListener('click', libIt);
         
+
+
     </script>
   
  </body>
